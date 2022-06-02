@@ -5,7 +5,7 @@
         private const int gold = 50;
         private const int platinum = 200;
 
-        public int Gold { get { return gold; } }
+        public int Gold => gold;
         public int Platinum { get { return platinum; } }
 
         public CustomerLevel CheckLevel(Account account)
